@@ -1,0 +1,22 @@
+{
+  "prompt_template": {
+    "llama2": ["[INST]", "[/INST]"],
+    "llama3": [
+      "<|begin_of_text|><|start_header_id|>user<|end_header_id|>",
+      "<|eot_id|><|start_header_id|>assistant<|end_header_id|>"
+    ],
+    "yi": ["Human:", "Assistant:"],
+    "sus_chat": ["### Human:", " ### Assistant:"],
+    "qa_custom": ["[Problem]", "[Solution]"]
+  },
+  "instructions_kor": {
+    "step_by_step": "주어진 문제에 대해 단계 별로 풀어줘. '문제': {} (답: {})",
+    "role_assign": "너는 수학 선생이야, 주어지는 문제에 대해 단계 별로 설명해줘 '문제': {} (답: {})",
+    "problem_answer": "{} (답: {})"
+  },
+  "instructions": {
+    "step_by_step": "\n\nSolve step-by-step for given 'question': {} (answer: {})",
+    "role_assign": "\n\nYou are a math teacher. Let's solve step-by-step for given for given 'question': {} (answer: {})",
+    "problem_answer": "\n\n{} (answer: {})"
+  }
+}

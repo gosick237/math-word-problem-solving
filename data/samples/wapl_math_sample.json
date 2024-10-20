@@ -1,0 +1,44 @@
+{
+    "PROB_ID": 100,
+    "ANSWER_TYPE": "SHORT_ANSWER",
+    "LEARNING_DOMAIN": "계산",
+    "QUESTION": [
+        {
+            "data":[" $a=\\\\frac{1}{4}$, $b=\\\\frac{1}{3}$, $c=\\\\frac{1}{2}$일 때, $\\\\frac{4}{a} +\\\\frac{2}{b}-\\\\frac{6}{c}$의 값을 구하시오."],
+            "type":"QUESTION_TEXT"
+        },
+        {
+            "type":"NOT_PREFACED_SHORT_ANSWER_TEXT",
+            "data":[]
+        }
+    ], 
+    "SOLUTION": [
+        {
+            "data":["$\\\\frac{4}{a} + \\\\frac{2}{b} - \\\\frac{6}{c}$  \\n$= 4 \\\\div a + 2 \\\\div b - 6 \\\\div c$  \\n$= 4 \\\\div \\\\frac{1}{4} +2 \\\\div \\\\frac{1}{3} -6 \\\\div \\\\frac{1}{2}$  \\n$= 4 \\\\times 4+2 \\\\times 3-6 \\\\times 2$  \\n$= 16+6-12= 10$ "],
+            "type":"SOLUTION_TEXT"
+        },
+        {
+            "type":"NOT_PREFACED_SHORT_ANSWER_CORRECT_ANSWER",
+            "data":["$10$"]
+        }
+    ],
+    "SOURCE": "수정된문제",
+    "CORRECT_RATE": 0.0,
+    "DIFFICULTY": "중",
+    "CREATOR_ID": "6003",
+    "CREATE_DATE": "2021-01-21 15:38",
+    "EDITOR_ID": null,
+    "EDIT_DATE": null,
+    "VALIDATOR_ID": "6002",
+    "VALIDATE_DATE": "2021-08-31 12:00",
+    "STATUS": "ACCEPT",
+    "TIME_RECOMMENDATION": 90,
+    "FREQUENT": false,
+    "CATEGORY": "유형",
+    "TYPE_ID": 250,
+    "NEW_DIFFICULTY": 6.0,
+    "CREATE_TOOL": "PS",
+    "TEMPLATE_ID": null,
+    "CURRICULUM_ID": "중등-중1-1학-02-01-02",
+    "TYPE_NAME": "분모에 분수를 대입하여 식의 값 구하기"
+}
